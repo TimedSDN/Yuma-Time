@@ -1,0 +1,863 @@
+Time log
+
+
+
+
+command number 1 wanted  time = 2014-03-11T00:56:42.123456Z
+command number 1 execute time (before script) = 0:56:42.123653Z;    command number 1 execute time (after script) = 0:56:42.134165Z
+command number 1 wanted  time = 2014-03-11T01:18:35.123456Z
+command number 1 execute time (before script) = 1:18:35.123656Z;    command number 1 execute time (after script) = 1:18:35.133222Z
+command number 2 wanted  time = 2014-03-11T01:23:42.123456Z
+command number 2 execute time (before script) = 1:23:42.123639Z;    command number 2 execute time (after script) = 1:23:42.132618Z
+command number 3 wanted  time = 2014-03-11T01:32:12.123456Z
+command number 3 execute time (before script) = 1:32:12.123638Z;    command number 3 execute time (after script) = 1:32:12.137223Z
+command number 5 wanted  time = 2014-03-11T01:32:45.123456Z
+command number 4 execute time (before script) = 1:32:45.123645Z;    command number 4 execute time (after script) = 1:32:45.133412Z
+command number 8 wanted  time = 2014-03-11T01:36:50.123456Z
+command number 5 execute time (before script) = 1:36:50.123640Z;    command number 5 execute time (after script) = 1:36:50.133042Z
+command number 9 wanted  time = 2014-03-11T01:36:59.123456Z
+command number 10 wanted  time = 2014-03-11T01:37:25.123456Z
+command number 6 execute time (before script) = 1:37:25.123617Z;    command number 6 execute time (after script) = 1:37:25.132822Z
+command number 1 wanted  time = 2014-03-11T01:39:42.123456Z
+command number 1 execute time (before script) = 1:39:42.123653Z;    command number 1 execute time (after script) = 1:39:42.133440Z
+command number 3 wanted  time = 2014-03-11T01:41:50.123456Z
+command number 2 execute time (before script) = 1:41:50.123626Z;    command number 2 execute time (after script) = 1:41:50.133936Z
+command number 5 wanted  time = 2014-03-11T01:42:30.123456Z
+command number 3 execute time (before script) = 1:42:30.123636Z;    command number 3 execute time (after script) = 1:42:30.136940Z
+command number 8 wanted  time = 2014-03-11T01:42:55.123456Z
+command number 4 execute time (before script) = 1:42:55.123640Z;    command number 4 execute time (after script) = 1:42:55.140122Z
+command number 12 wanted  time = 2014-03-11T01:43:32.123456Z
+command number 5 execute time (before script) = 1:43:32.123642Z;    command number 5 execute time (after script) = 1:43:32.133549Z
+command number 13 wanted  time = 2014-03-11T01:44:12.123456Z
+command number 6 execute time (before script) = 1:44:12.123639Z;    command number 6 execute time (after script) = 1:44:12.141786Z
+command number 15 wanted  time = 2014-03-11T01:44:44.123456Z
+command number 7 execute time (before script) = 1:44:44.123613Z;    command number 7 execute time (after script) = 1:44:44.134351Z
+command number 16 wanted  time = 2014-03-11T01:45:14.123456Z
+command number 8 execute time (before script) = 1:45:14.123643Z;    command number 8 execute time (after script) = 1:45:14.136479Z
+command number 18 wanted  time = 2014-03-11T01:46:01.123456Z
+command number 9 execute time (before script) = 1:46:1.123640Z;    command number 9 execute time (after script) = 1:46:1.138538Z
+command number 19 wanted  time = 2014-03-11T01:47:01.123456Z
+command number 10 execute time (before script) = 1:47:1.123602Z;    command number 10 execute time (after script) = 1:47:1.139057Z
+command number 21 wanted  time = 2014-03-11T01:47:29.123456Z
+command number 11 execute time (before script) = 1:47:29.123640Z;    command number 11 execute time (after script) = 1:47:29.132736Z
+command number 22 wanted  time = 2014-03-11T01:47:53.123456Z
+command number 12 execute time (before script) = 1:47:53.123607Z;    command number 12 execute time (after script) = 1:47:53.133642Z
+command number 23 wanted  time = 2014-03-11T01:48:20.123456Z
+command number 13 execute time (before script) = 1:48:20.123638Z;    command number 13 execute time (after script) = 1:48:20.133543Z
+
+command number 1 wanted  time = 2014-03-11T09:25:19.123456Z
+command number 2 wanted  time = 2014-03-11T10:47:05.123456Z
+command number 3 wanted  time = 2014-03-11T10:47:05.123456Z
+command number 4 wanted  time = 2014-03-11T10:48:35.123456Z
+command number 1 wanted  time = 2014-03-11T22:36:05.123456Z
+command number 1 execute time (before script) = 22:36:5.123678Z;    command number 1 execute time (after script) = 22:36:5.172220Z
+command number 1 wanted  time = 2014-03-11T22:33:01.123456Z
+command number 1 execute time (before script) = 22:49:19.122944Z;    command number 1 execute time (after script) = 22:49:19.137431Z
+command number 2 wanted  time = 2014-03-11T22:33:01.123456Z
+command number 2 execute time (before script) = 22:50:0.26647Z;    command number 2 execute time (after script) = 22:50:0.36418Z
+command number 1 wanted  time = 2014-03-11T22:33:01.123456Z
+command number 1 execute time (before script) = 23:5:10.495085Z;    command number 1 execute time (after script) = 23:5:10.532545Z
+command number 1 wanted  time = 2014-03-11T23:06:01.123456Z
+command number 1 execute time (before script) = 23:6:1.123681Z;    command number 1 execute time (after script) = 23:6:1.132667Z
+command number 2 wanted  time = 2014-03-11T23:06:31.123456Z
+command number 2 execute time (before script) = 23:6:31.124073Z;    command number 2 execute time (after script) = 23:6:31.135061Z
+command number 1 wanted  time = 2014-03-11T23:14:45.123456Z
+command number 1 after sleep = 2014-03-11T23:14:45.123456Z
+command number 2 wanted  time = 2014-03-11T23:15:25.123456Z
+command number 2 after sleep = 2014-03-11T23:15:25.123456Z
+command number 3 wanted  time = 2014-03-11T23:18:07.123456Z
+command number 3 after sleep = 2014-03-11T23:18:07.123456Z
+command number 1 execute time (before script) = 23:18:7.123747Z;    command number 1 execute time (after script) = 23:18:7.132995Z
+command number 4 wanted  time = 2014-03-11T23:18:27.123456Z
+command number 4 after sleep = 2014-03-11T23:18:27.123456Z
+command number 5 wanted  time = 2014-03-11T23:19:27.123456Z
+command number 5 after sleep = 2014-03-11T23:19:27.123456Z
+command number 2 execute time (before script) = 23:19:27.124463Z;    command number 2 execute time (after script) = 23:19:27.202718Z
+command number 6 wanted  time = 2014-03-11T23:20:40.123456Z
+command number 6 after sleep = 2014-03-11T23:20:40.123456Z
+command number 3 execute time (before script) = 23:20:40.123899Z;    command number 3 execute time (after script) = 23:20:40.133808Z
+command number 7 wanted  time = 2014-03-11T23:20:50.123456Z
+command number 7 after sleep = 2014-03-11T23:20:50.123456Z
+command number 8 wanted  time = 2014-03-11T23:21:10.123456Z
+command number 8 after sleep = 2014-03-11T23:21:10.123456Z
+command number 4 execute time (before script) = 23:21:10.124098Z;    command number 4 execute time (after script) = 23:21:10.133271Z
+command number 9 wanted  time = 2014-03-11T23:31:50.123456Z
+command number 9 after sleep = 2014-03-11T23:31:50.123456Z
+command number 5 execute time (before script) = 23:31:50.124082Z;    command number 5 execute time (after script) = 23:31:50.133854Z
+command number 1 wanted  time = 2014-11-25T05:13:47-08:00
+command number 1 after sleep = 2014-11-25T05:13:47-08:00
+command number 2 wanted  time = 2014-11-25T05:13:47-08:00
+command number 2 after sleep = 2014-11-25T05:13:47-08:00
+command number 3 wanted  time = 2014-11-25T05:22:31-08:00
+command number 3 after sleep = 2014-11-25T05:22:31-08:00
+command number 4 wanted  time = 2014-11-25T05:22:58-08:00
+command number 4 after sleep = 2014-11-25T05:22:58-08:00
+command number 5 wanted  time = 2014-11-25T05:26:24.123-08:00
+command number 5 after sleep = 2014-11-25T05:26:24.123-08:00
+command number 6 wanted  time = 2014-11-25T05:33:21.123345-08:00
+command number 6 after sleep = 2014-11-25T05:33:21.123345-08:00
+command number 1 wanted  time = 2014-11-25T05:50:03-08:00
+command number 1 after sleep = 2014-11-25T05:50:03-08:00
+command number 2 wanted  time = 2014-11-25T05:50:33.123456-08:00
+command number 2 after sleep = 2014-11-25T05:50:33.123456-08:00
+command number 3 wanted  time = 2014-11-25T05:50:59.123456-08:00
+command number 3 after sleep = 2014-11-25T05:50:59.123456-08:00
+command number 1 wanted  time = 2014-11-25T05:56:13Z
+command number 1 after sleep = 2014-11-25T05:56:13Z
+command number 2 wanted  time = 2014-11-25T05:57:31.123456Z
+command number 2 after sleep = 2014-11-25T05:57:31.123456Z
+command number 3 wanted  time = 2014-11-25T05:57:59.123456Z
+command number 3 after sleep = 2014-11-25T05:57:59.123456Z
+command number 4 wanted  time = 2014-11-25T06:00:30.123456Z
+command number 4 after sleep = 2014-11-25T06:00:30.123456Z
+command number 5 wanted  time = 2014-11-25T06:00:50.123456-08:00
+command number 5 after sleep = 2014-11-25T06:00:50.123456-08:00
+command number 1 wanted  time = 2014-11-25T06:43:10-08:00
+command number 1 after sleep = 2014-11-25T06:43:10-08:00
+command number 2 wanted  time = 2014-11-25T06:43:30.123456-08:00
+command number 2 after sleep = 2014-11-25T06:43:30.123456-08:00
+command number 3 wanted  time = 2014-11-25T06:44:59.500659886-08:00
+command number 3 after sleep = 2014-11-25T06:44:59.500659886-08:00
+command number 4 wanted  time = 2014-11-25T06:45:59.500659886-08:00
+command number 4 after sleep = 2014-11-25T06:45:59.500659886-08:00
+command number 5 wanted  time = 2014-11-25T06:47:31.510531255-08:00
+command number 5 after sleep = 2014-11-25T06:47:31.510531255-08:00
+command number 6 wanted  time = 2014-11-25T06:47:31.510531255-08:00
+command number 6 after sleep = 2014-11-25T06:47:31.510531255-08:00
+command number 1 wanted  time = 2014-11-26T05:35:46.719280758Z
+command number 1 after sleep =5:35:44.719912Z 
+rpc-reply = 5:35:46.721176Z 
+command number 2 wanted  time = 2014-11-26T05:35:53.943943025Z
+command number 2 after sleep =5:36:9.167790Z 
+rpc-reply = 5:36:9.171364Z 
+command number 3 wanted  time = 2014-11-26T05:37:23.215538206Z
+command number 3 after sleep =5:37:12.216331Z 
+rpc-reply = 5:37:23.220000Z 
+command number 4 wanted  time = 2014-11-26T05:48:48.604695927Z
+command number 4 after sleep =5:48:44.605294Z 
+rpc-reply = 5:48:48.609956Z 
+command number 5 wanted  time = 2014-11-26T06:00:00.000000000Z
+command number 5 after sleep =5:59:45.703746Z 
+rpc-reply = 5:59:45.706838Z 
+command number 6 wanted  time = 2014-11-26T06:01:20.641365697Z
+command number 6 after sleep =6:0:39.643579Z 
+rpc-reply = 6:1:20.647799Z 
+command number 7 wanted  time = 2014-11-26T06:03:32.170003873Z
+command number 7 after sleep =6:2:42.171026Z 
+rpc-reply = 6:3:32.175102Z 
+rpc-reply = 4:39:57.90630Z 
+rpc-reply = 5:22:0.218096Z 
+rpc-reply = 5:22:27.869977Z 
+rpc-reply = 5:25:21.838101Z 
+rpc-reply = 5:26:46.290906Z 
+rpc-reply = 5:27:50.61937Z 
+rpc-reply = 5:28:24.19738Z 
+rpc-reply = 5:28:53.390886Z 
+rpc-reply = 5:29:1.181787Z 
+rpc-reply = 5:29:9.493922Z 
+command number 1 wanted  time = 2014-11-30T05:25:40.298508081Z
+command number 1 after sleep =5:30:4.54947Z 
+rpc-reply = 5:30:4.56277Z 
+command number 2 wanted  time = 2014-11-30T05:30:48.262208509Z
+command number 2 after sleep =5:30:39.263190Z 
+rpc-reply = 5:30:48.267251Z 
+command number 3 wanted  time = 2014-11-30T05:25:40.298508081Z
+command number 3 after sleep =5:30:58.290351Z 
+rpc-reply = 5:30:58.291551Z 
+command number 4 wanted  time = 2014-11-30T05:31:33.278853762Z
+command number 4 after sleep =5:31:23.279827Z 
+rpc-reply = 5:31:33.281608Z 
+command number 5 wanted  time = 2014-11-30T05:35:43.593675349Z
+command number 5 after sleep =5:35:34.594376Z 
+rpc-reply = 5:35:43.598177Z 
+command number 1 wanted  time = 2014-11-30T05:50:26.552192704Z
+command number 1 after sleep =5:50:17.553103Z 
+rpc-reply = 5:50:26.554840Z 
+command number 2 wanted  time = 2014-11-30T05:52:14.416795877Z
+command number 2 after sleep =5:52:4.417565Z 
+rpc-reply = 5:52:14.421194Z 
+command number 3 wanted  time = 2014-11-30T05:52:41.433522488Z
+command number 3 after sleep =5:52:38.434103Z 
+rpc-reply = 5:52:41.438008Z 
+command number 4 wanted  time = 2014-11-30T05:53:17.369142219Z
+command number 4 after sleep =5:53:14.369831Z 
+rpc-reply = 5:53:17.373498Z 
+command number 5 wanted  time = 2014-11-30T05:53:28.257149480Z
+command number 5 after sleep =5:53:25.257636Z 
+rpc-reply = 5:53:28.261354Z 
+command number 6 wanted  time = 2014-11-30T05:53:37.633795331Z
+command number 6 after sleep =5:53:35.634338Z 
+rpc-reply = 5:53:37.638148Z 
+command number 7 wanted  time = 2014-11-30T06:02:03.599151883Z
+command number 7 after sleep =6:2:1.599812Z 
+rpc-reply = 6:2:3.603876Z 
+command number 8 wanted  time = 2014-11-30T06:06:41.032302130Z
+command number 8 after sleep =6:6:38.32994Z 
+rpc-reply = 6:6:41.37417Z 
+command number 9 wanted  time = 2014-11-30T06:07:02.430868601Z
+command number 9 after sleep =6:6:59.431551Z 
+rpc-reply = 6:7:2.435695Z 
+command number 10 wanted  time = 2014-11-30T06:07:13.752321852Z
+command number 10 after sleep =6:7:11.753097Z 
+rpc-reply = 6:7:13.757215Z 
+command number 11 wanted  time = 2014-11-30T06:07:19.791825179Z
+command number 11 after sleep =6:7:17.792478Z 
+rpc-reply = 6:7:19.796487Z 
+rpc-reply = 6:21:32.735779Z 
+rpc-reply = 6:24:25.984713Z 
+command number 1 wanted  time = 2014-11-30T06:46:54.820447449Z
+command number 1 after sleep =6:46:52.821137Z 
+rpc-reply = 6:46:54.825367Z 
+command number 2 wanted  time = 2014-11-30T06:47:51.682341935Z
+command number 2 after sleep =6:47:42.683510Z 
+rpc-reply = 6:47:51.685340Z 
+rpc-reply = 6:47:51.715445Z 
+rpc-reply = 6:47:51.729787Z 
+rpc-reply = 6:47:51.749311Z 
+rpc-reply = 6:47:51.757147Z 
+rpc-reply = 6:47:51.772414Z 
+rpc-reply = 6:47:51.792184Z 
+rpc-reply = 6:47:51.817886Z 
+rpc-reply = 6:47:51.825887Z 
+command number 3 wanted  time = 2014-11-30T06:47:51.682341935Z
+command number 3 after sleep =6:47:51.833333Z 
+rpc-reply = 6:47:51.836686Z 
+command number 4 wanted  time = 2014-11-30T06:48:16.497536189Z
+command number 4 after sleep =6:48:7.499058Z 
+rpc-reply = 6:48:16.500877Z 
+rpc-reply = 6:48:16.533678Z 
+rpc-reply = 6:48:16.539593Z 
+rpc-reply = 6:48:16.550874Z 
+rpc-reply = 6:48:16.558140Z 
+rpc-reply = 6:48:16.572113Z 
+command number 5 wanted  time = 2014-11-30T06:48:40.633114866Z
+command number 5 after sleep =6:48:31.634291Z 
+rpc-reply = 6:48:40.636096Z 
+rpc-reply = 6:48:40.668041Z 
+rpc-reply = 6:48:40.674923Z 
+rpc-reply = 6:48:40.686210Z 
+rpc-reply = 6:48:40.693902Z 
+rpc-reply = 6:48:40.708098Z 
+rpc-reply = 6:49:34.893573Z 
+rpc-reply = 6:49:34.899435Z 
+rpc-reply = 6:49:34.910909Z 
+rpc-reply = 6:49:34.918608Z 
+rpc-reply = 6:49:34.933766Z 
+rpc-reply = 6:49:59.997043Z 
+rpc-reply = 6:50:0.3836Z 
+rpc-reply = 6:50:0.14472Z 
+rpc-reply = 6:50:0.22201Z 
+rpc-reply = 6:50:0.37653Z 
+rpc-reply = 6:50:38.406028Z 
+rpc-reply = 6:50:38.412827Z 
+rpc-reply = 6:51:6.974408Z 
+rpc-reply = 6:51:6.980689Z 
+rpc-reply = 6:51:6.991065Z 
+rpc-reply = 6:51:6.998610Z 
+rpc-reply = 6:51:7.16098Z 
+rpc-reply = 6:53:53.491686Z 
+rpc-reply = 6:53:53.496718Z 
+rpc-reply = 6:53:53.509138Z 
+rpc-reply = 6:53:53.519591Z 
+rpc-reply = 6:54:36.303448Z 
+rpc-reply = 6:54:36.309270Z 
+rpc-reply = 6:54:36.318333Z 
+rpc-reply = 6:54:36.325011Z 
+rpc-reply = 6:54:36.340620Z 
+rpc-reply = 6:58:19.33624Z 
+rpc-reply = 6:58:25.211280Z 
+rpc-reply = 6:58:40.108863Z 
+rpc-reply = 6:58:40.115432Z 
+rpc-reply = 6:58:47.145657Z 
+rpc-reply = 6:59:27.7519Z 
+rpc-reply = 6:59:34.901089Z 
+rpc-reply = 6:59:34.907835Z 
+rpc-reply = 6:59:40.275312Z 
+rpc-reply = 7:2:10.928480Z 
+rpc-reply = 7:2:10.935333Z 
+command number 6 wanted  time = 2014-11-30T07:02:20.394454037Z
+command number 6 after sleep =7:2:10.395485Z 
+rpc-reply = 7:2:20.399379Z 
+rpc-reply = 7:4:17.441834Z 
+rpc-reply = 7:4:17.447675Z 
+command number 7 wanted  time = 2014-11-30T07:04:26.901910743Z
+command number 7 after sleep =7:4:17.902844Z 
+rpc-reply = 7:4:26.906796Z 
+rpc-reply = 7:4:49.147914Z 
+rpc-reply = 7:4:49.154641Z 
+command number 8 wanted  time = 2014-11-30T07:04:51.614013406Z
+command number 8 after sleep =7:4:49.614684Z 
+rpc-reply = 7:4:51.618799Z 
+rpc-reply = 7:4:56.405131Z 
+rpc-reply = 7:4:56.411656Z 
+command number 9 wanted  time = 2014-11-30T07:04:58.877442488Z
+command number 9 after sleep =7:4:56.878058Z 
+rpc-reply = 7:4:58.882322Z 
+rpc-reply = 7:6:52.329852Z 
+rpc-reply = 7:7:1.795606Z 
+rpc-reply = 7:7:16.370984Z 
+rpc-reply = 7:7:16.377477Z 
+rpc-reply = 7:7:21.721202Z 
+rpc-reply = 7:7:27.189628Z 
+rpc-reply = 7:7:33.418390Z 
+rpc-reply = 7:7:33.424546Z 
+rpc-reply = 7:7:43.842206Z 
+rpc-reply = 7:19:51.538254Z 
+rpc-reply = 7:19:58.401134Z 
+rpc-reply = 7:20:10.373326Z 
+rpc-reply = 7:20:10.380208Z 
+rpc-reply = 7:20:16.306553Z 
+rpc-reply = 7:20:21.618834Z 
+rpc-reply = 7:20:27.938548Z 
+rpc-reply = 7:20:27.945200Z 
+command number 1 wanted  time = 2014-11-30T07:20:59.767150363Z
+command number 1 after sleep =7:21:0.101056Z 
+rpc-reply = 7:21:0.102364Z 
+command number 2 wanted  time = 2014-11-30T07:21:32.976615980Z
+command number 2 after sleep =7:21:28.977619Z 
+rpc-reply = 7:21:32.979570Z 
+command number 3 wanted  time = 2014-11-30T07:22:03.706066224Z
+command number 3 after sleep =7:22:4.166608Z 
+rpc-reply = 7:22:4.168307Z 
+command number 4 wanted  time = 2014-11-30T07:22:29.082592167Z
+command number 4 after sleep =7:22:30.254700Z 
+rpc-reply = 7:22:30.256058Z 
+command number 5 wanted  time = 2014-11-30T07:24:07.498288774Z
+command number 5 after sleep =7:23:50.499323Z 
+rpc-reply = 7:24:7.503746Z 
+
+command number 1 wanted  time = 2014-12-02T04:42:54.158554283Z
+command number 1 after sleep =2014-12-02T04:42:54.555524-08:00 
+rpc-reply = 2014-12-02T04:42:54.559780-08:00 
+
+command number 2 wanted  time = 2014-12-02T04:43:11.030809090Z
+command number 2 after sleep =2014-12-02T04:43:11.810639-08:00 
+rpc-reply = 2014-12-02T04:43:11.815648-08:00 
+
+command number 3 wanted  time = 2014-12-02T04:43:23.654301457Z
+command number 3 after sleep =2014-12-02T04:43:23.302737-08:00 
+rpc-reply = 2014-12-02T04:43:23.307256-08:00 
+
+command number 4 wanted  time = 2014-12-02T04:43:31.223605820Z
+command number 4 after sleep =2014-12-02T04:43:31.607225-08:00 
+rpc-reply = 2014-12-02T04:43:31.611821-08:00 
+
+command number 5 wanted  time = 2014-12-02T04:43:39.191586931Z
+command number 5 after sleep =2014-12-02T04:43:39.588217-08:00 
+rpc-reply = 2014-12-02T04:43:39.592701-08:00 
+
+command number 6 wanted  time = 2014-12-02T04:43:59.728347166Z
+command number 6 after sleep =2014-12-02T04:43:59.348661-08:00 
+rpc-reply = 2014-12-02T04:43:59.353164-08:00 
+
+command number 1 wanted  time = 2014-12-02T23:05:15.090712623Z
+command number 1 after sleep =2014-12-02T23:05:15.728383-08:00 
+rpc-reply = 2014-12-02T23:05:15.733052-08:00 
+
+command number 1 wanted  time = 2014-12-02T23:12:50.511265432Z
+command number 1 after sleep =2014-12-02T23:12:50.266812-08:00 
+rpc-reply = 2014-12-02T23:12:50.271289-08:00 
+
+command number 1 wanted  time = 2014-12-02T23:18:08.144828349Z
+command number 1 after sleep =2014-12-02T23:18:08.830013-08:00 
+rpc-reply = 2014-12-02T23:18:08.835002-08:00 
+rpc-reply = 2014-12-02T23:19:20.203469-08:00 
+rpc-reply = 2014-12-02T23:19:20.220214-08:00 
+rpc-reply = 2014-12-02T23:19:20.242001-08:00 
+rpc-reply = 2014-12-02T23:19:20.249833-08:00 
+rpc-reply = 2014-12-02T23:19:20.264772-08:00 
+rpc-reply = 2014-12-02T23:19:20.275425-08:00 
+rpc-reply = 2014-12-02T23:19:20.301828-08:00 
+rpc-reply = 2014-12-02T23:19:20.309637-08:00 
+rpc-reply = 2014-12-02T23:19:35.582773-08:00 
+rpc-reply = 2014-12-02T23:19:35.588351-08:00 
+
+command number 2 wanted  time = 2014-12-02T23:19:38.048751263Z
+command number 2 after sleep =2014-12-02T23:19:38.752622-08:00 
+rpc-reply = 2014-12-02T23:19:38.757586-08:00 
+rpc-reply = 2014-12-02T23:26:04.135244-08:00 
+rpc-reply = 2014-12-02T23:26:04.142117-08:00 
+rpc-reply = 2014-12-02T23:26:13.691673-08:00 
+rpc-reply = 2014-12-02T23:26:13.698042-08:00 
+
+command number 1 wanted  time = 2014-12-02T23:26:59.716338374Z
+command number 1 after sleep =2014-12-02T23:26:59.339772-08:00 
+rpc-reply = 2014-12-02T23:26:59.344046-08:00 
+rpc-reply = 2014-12-02T23:27:38.930915-08:00 
+rpc-reply = 2014-12-02T23:27:38.937382-08:00 
+rpc-reply = 2014-12-02T23:27:48.283218-08:00 
+rpc-reply = 2014-12-02T23:27:48.289625-08:00 
+rpc-reply = 2014-12-02T23:28:32.053697-08:00 
+rpc-reply = 2014-12-02T23:28:32.061277-08:00 
+rpc-reply = 2014-12-02T23:32:02.356546-08:00 
+rpc-reply = 2014-12-02T23:32:02.368974-08:00 
+rpc-reply = 2014-12-02T23:32:02.388491-08:00 
+rpc-reply = 2014-12-02T23:32:02.396505-08:00 
+rpc-reply = 2014-12-02T23:32:02.412471-08:00 
+rpc-reply = 2014-12-02T23:32:02.422995-08:00 
+rpc-reply = 2014-12-02T23:32:02.448944-08:00 
+rpc-reply = 2014-12-02T23:32:02.457126-08:00 
+rpc-reply = 2014-12-02T23:32:12.125345-08:00 
+rpc-reply = 2014-12-02T23:32:12.132131-08:00 
+
+command number 1 wanted  time = 2014-12-02T23:32:14.590134889Z
+command number 1 after sleep =2014-12-02T23:32:14.136106-08:00 
+rpc-reply = 2014-12-02T23:32:14.140337-08:00 
+rpc-reply = 2014-12-02T23:37:40.445490-08:00 
+rpc-reply = 2014-12-02T23:37:40.457911-08:00 
+rpc-reply = 2014-12-02T23:37:40.478371-08:00 
+rpc-reply = 2014-12-02T23:37:40.486160-08:00 
+rpc-reply = 2014-12-02T23:37:40.502632-08:00 
+rpc-reply = 2014-12-02T23:37:40.512996-08:00 
+rpc-reply = 2014-12-02T23:37:40.537957-08:00 
+rpc-reply = 2014-12-02T23:37:40.546150-08:00 
+rpc-reply = 2014-12-02T23:38:27.656010-08:00 
+rpc-reply = 2014-12-02T23:38:27.662628-08:00 
+
+command number 1 wanted  time = 2014-12-02T23:38:30.123118239Z
+command number 1 after sleep =2014-12-02T23:38:30.119482-08:00 
+rpc-reply = 2014-12-02T23:38:30.123721-08:00 
+
+command number 1 wanted  time = 2014-12-03T00:12:10.478148438Z
+command number 1 after sleep =2014-12-03T00:12:10.150039-08:00 
+rpc-reply = 2014-12-03T00:12:10.154652-08:00 
+rpc-reply = 2014-12-03T00:12:25.616864-08:00 
+rpc-reply = 2014-12-03T00:12:25.628519-08:00 
+rpc-reply = 2014-12-03T00:12:25.647651-08:00 
+rpc-reply = 2014-12-03T00:12:25.653984-08:00 
+rpc-reply = 2014-12-03T00:12:25.666652-08:00 
+rpc-reply = 2014-12-03T00:12:25.675584-08:00 
+rpc-reply = 2014-12-03T00:12:25.700986-08:00 
+rpc-reply = 2014-12-03T00:12:25.707387-08:00 
+rpc-reply = 2014-12-03T00:12:39.339367-08:00 
+rpc-reply = 2014-12-03T00:12:39.344603-08:00 
+
+command number 2 wanted  time = 2014-12-03T00:12:41.806705788Z
+command number 2 after sleep =2014-12-03T00:12:41.707057-08:00 
+rpc-reply = 2014-12-03T00:12:41.711774-08:00 
+
+command number 3 wanted  time = 2014-12-03T00:17:11.495652271Z
+command number 3 after sleep =2014-12-03T00:17:11.653492-08:00 
+rpc-reply = 2014-12-03T00:17:11.657628-08:00 
+rpc-reply = 2014-12-03T00:22:42.613024-08:00 
+rpc-reply = 2014-12-03T00:22:42.625495-08:00 
+
+command number 1 wanted  time = 2014-12-03T00:22:45.011001943Z
+command number 1 after sleep =2014-12-03T00:22:45.007811-08:00 
+
+command number 4 wanted  time = 2014-12-03T00:22:45.011001943Z
+command number 4 after sleep =2014-12-03T00:22:45.018077-08:00 
+rpc-reply = 2014-12-03T00:22:45.022038-08:00 
+rpc-reply = 2014-12-03T00:23:19.337816-08:00 
+rpc-reply = 2014-12-03T00:23:19.342827-08:00 
+
+command number 5 wanted  time = 2014-12-03T00:23:21.778651798Z
+command number 5 after sleep =2014-12-03T00:23:21.653065-08:00 
+rpc-reply = 2014-12-03T00:23:21.657642-08:00 
+rpc-reply = 2014-12-03T00:24:33.874910-08:00 
+rpc-reply = 2014-12-03T00:24:33.885502-08:00 
+
+command number 1 wanted  time = 2014-12-03T00:24:36.285077307Z
+command number 1 after sleep =2014-12-03T00:24:36.078573-08:00 
+
+command number 6 wanted  time = 2014-12-03T00:24:36.285077307Z
+command number 6 after sleep =2014-12-03T00:24:36.090169-08:00 
+rpc-reply = 2014-12-03T00:24:36.094059-08:00 
+rpc-reply = 2014-12-03T00:25:35.919933-08:00 
+rpc-reply = 2014-12-03T00:25:35.931363-08:00 
+
+command number 1 wanted  time = 2014-12-03T00:25:38.356665496Z
+command number 1 after sleep =2014-12-03T00:25:38.666752-08:00 
+
+command number 7 wanted  time = 2014-12-03T00:25:38.356665496Z
+command number 7 after sleep =2014-12-03T00:25:38.678279-08:00 
+rpc-reply = 2014-12-03T00:25:38.682239-08:00 
+rpc-reply = 2014-12-03T00:36:55.877830-08:00 
+rpc-reply = 2014-12-03T00:36:55.891116-08:00 
+rpc-reply = 2014-12-03T00:36:55.912963-08:00 
+rpc-reply = 2014-12-03T00:36:55.921687-08:00 
+rpc-reply = 2014-12-03T00:36:55.937476-08:00 
+rpc-reply = 2014-12-03T00:36:55.948956-08:00 
+rpc-reply = 2014-12-03T00:36:55.975593-08:00 
+rpc-reply = 2014-12-03T00:36:55.983645-08:00 
+rpc-reply = 2014-12-03T00:37:04.697328-08:00 
+rpc-reply = 2014-12-03T00:37:04.707743-08:00 
+
+command number 1 wanted  time = 2014-12-03T00:37:07.128143899Z
+command number 1 after sleep =2014-12-03T00:37:07.145196-08:00 
+
+command number 1 wanted  time = 2014-12-03T00:37:07.128143899Z
+command number 1 after sleep =2014-12-03T00:37:07.157690-08:00 
+rpc-reply = 2014-12-03T00:37:07.161924-08:00 
+rpc-reply = 2014-12-03T00:39:24.731479-08:00 
+rpc-reply = 2014-12-03T00:39:24.737301-08:00 
+
+command number 2 wanted  time = 2014-12-03T00:39:27.186581697Z
+command number 2 after sleep =2014-12-03T00:39:27.582984-08:00 
+rpc-reply = 2014-12-03T00:39:27.587630-08:00 
+
+command number 3 wanted  time = 2014-12-03T00:41:33.490580324Z
+command number 3 after sleep =2014-12-03T00:41:33.581414-08:00 
+rpc-reply = 2014-12-03T00:41:33.585601-08:00 
+
+command number 4 wanted  time = 2014-12-03T00:43:01.795332787Z
+command number 4 after sleep =2014-12-03T00:43:01.333950-08:00 
+rpc-reply = 2014-12-03T00:43:01.338143-08:00 
+rpc-reply = 2014-12-03T00:43:09.839200-08:00 
+rpc-reply = 2014-12-03T00:43:09.845107-08:00 
+
+command number 5 wanted  time = 2014-12-03T00:43:12.300025141Z
+command number 5 after sleep =2014-12-03T00:43:12.026168-08:00 
+rpc-reply = 2014-12-03T00:43:12.030662-08:00 
+
+command number 6 wanted  time = 2014-12-03T00:51:16.343645427Z
+command number 6 after sleep =2014-12-03T00:51:16.646836-08:00 
+rpc-reply = 2014-12-03T00:51:16.651660-08:00 
+
+command number 7 wanted  time = 2014-12-03T00:55:48.809325792Z
+command number 7 after sleep =2014-12-03T00:55:48.326995-08:00 
+rpc-reply = 2014-12-03T00:55:48.331631-08:00 
+rpc-reply = 2014-12-03T01:00:36.621784-08:00 
+rpc-reply = 2014-12-03T01:00:36.628688-08:00 
+
+command number 8 wanted  time = 2014-12-03T01:00:39.088465735Z
+command number 8 after sleep =2014-12-03T01:00:39.466971-08:00 
+rpc-reply = 2014-12-03T01:00:39.471371-08:00 
+
+command number 1 wanted  time = 2014-12-03T01:03:08.551701434Z
+command number 1 after sleep =2014-12-03T01:03:08.702728-08:00 
+rpc-reply = 2014-12-03T01:03:08.706726-08:00 
+rpc-reply = 2014-12-03T01:03:18.601200-08:00 
+rpc-reply = 2014-12-03T01:03:18.612632-08:00 
+rpc-reply = 2014-12-03T01:03:18.634105-08:00 
+rpc-reply = 2014-12-03T01:03:18.642015-08:00 
+rpc-reply = 2014-12-03T01:03:18.657695-08:00 
+rpc-reply = 2014-12-03T01:03:18.668437-08:00 
+rpc-reply = 2014-12-03T01:03:18.694160-08:00 
+rpc-reply = 2014-12-03T01:03:18.702288-08:00 
+rpc-reply = 2014-12-03T01:03:26.808611-08:00 
+rpc-reply = 2014-12-03T01:03:26.815524-08:00 
+
+command number 2 wanted  time = 2014-12-03T01:03:29.271978104Z
+command number 2 after sleep =2014-12-03T01:03:29.979320-08:00 
+rpc-reply = 2014-12-03T01:03:29.983895-08:00 
+
+command number 1 wanted  time = 2014-12-03T01:24:37.405662712Z
+command number 1 after sleep =2014-12-03T01:24:37.664012-08:00 
+rpc-reply = 2014-12-03T01:24:37.668073-08:00 
+rpc-reply = 2014-12-03T01:24:51.985367-08:00 
+rpc-reply = 2014-12-03T01:24:51.999130-08:00 
+rpc-reply = 2014-12-03T01:24:52.019818-08:00 
+rpc-reply = 2014-12-03T01:24:52.027478-08:00 
+rpc-reply = 2014-12-03T01:24:52.042484-08:00 
+rpc-reply = 2014-12-03T01:24:52.052564-08:00 
+rpc-reply = 2014-12-03T01:24:52.079065-08:00 
+rpc-reply = 2014-12-03T01:24:52.086869-08:00 
+rpc-reply = 2014-12-03T01:24:59.116432-08:00 
+rpc-reply = 2014-12-03T01:24:59.123580-08:00 
+
+command number 2 wanted  time = 2014-12-03T01:25:01.582242837Z
+command number 2 after sleep =2014-12-03T01:25:01.244093-08:00 
+rpc-reply = 2014-12-03T01:25:01.248477-08:00 
+rpc-reply = 2014-12-03T01:28:32.037118-08:00 
+rpc-reply = 2014-12-03T01:29:58.901100-08:00 
+rpc-reply = 2014-12-03T01:31:20.997672-08:00 
+rpc-reply = 2014-12-03T01:32:34.950839-08:00 
+rpc-reply = 2014-12-03T01:33:25.261960-08:00 
+rpc-reply = 2014-12-03T01:33:49.434578-08:00 
+rpc-reply = 2014-12-03T01:34:12.822482-08:00 
+
+command number 1 wanted  time = 2014-12-03T01:38:59.294110584Z
+command number 1 after sleep =2014-12-03T01:38:59.112038-08:00 
+rpc-reply = 2014-12-03T01:38:59.116459-08:00 
+rpc-reply = 2014-12-03T01:40:12.715848-08:00 
+rpc-reply = 2014-12-03T01:40:12.728324-08:00 
+rpc-reply = 2014-12-03T01:40:12.747524-08:00 
+rpc-reply = 2014-12-03T01:40:12.753828-08:00 
+rpc-reply = 2014-12-03T01:40:12.766710-08:00 
+rpc-reply = 2014-12-03T01:40:12.776907-08:00 
+rpc-reply = 2014-12-03T01:40:12.802887-08:00 
+rpc-reply = 2014-12-03T01:40:12.810524-08:00 
+rpc-reply = 2014-12-03T01:40:20.844398-08:00 
+rpc-reply = 2014-12-03T01:40:20.851648-08:00 
+
+command number 2 wanted  time = 2014-12-03T01:40:23.316727248Z
+command number 2 after sleep =2014-12-03T01:40:23.728496-08:00 
+rpc-reply = 2014-12-03T01:40:23.733037-08:00 
+rpc-reply = 2014-12-03T01:49:52.774686-08:00 
+rpc-reply = 2014-12-03T01:50:03.788017-08:00 
+rpc-reply = 2014-12-03T01:50:10.312071-08:00 
+rpc-reply = 2014-12-03T01:51:00.759281-08:00 
+rpc-reply = 2014-12-03T01:51:27.042155-08:00 
+rpc-reply = 2014-12-03T01:54:13.250630-08:00 
+rpc-reply = 2014-12-03T01:55:14.162036-08:00 
+rpc-reply = 2014-12-03T01:55:23.972483-08:00 
+rpc-reply = 2014-12-03T01:56:20.171998-08:00 
+rpc-reply = 2014-12-03T01:56:56.365595-08:00 
+rpc-reply = 2014-12-03T01:57:16.112442-08:00 
+
+command number 1 wanted  time = 2014-12-03T01:58:37.492302821Z
+command number 1 after sleep =2014-12-03T01:58:37.304214-08:00 
+
+command number 1 wanted  time = 2014-12-03T01:58:37.492302821Z
+command number 1 after sleep =2014-12-03T01:58:37.316495-08:00 
+rpc-reply = 2014-12-03T01:58:37.320218-08:00 
+
+command number 2 wanted  time = 2014-12-03T02:00:59.165899088Z
+command number 2 after sleep =2014-12-03T02:00:59.900457-08:00 
+
+command number 2 wanted  time = 2014-12-03T02:00:59.165899088Z
+command number 2 after sleep =2014-12-03T02:00:59.916845-08:00 
+rpc-reply = 2014-12-03T02:00:59.920906-08:00 
+
+command number 1 wanted  time = 2014-12-03T02:07:13.312949221Z
+command number 1 after sleep =2014-12-03T02:07:13.950688-08:00 
+rpc-reply = 2014-12-03T02:07:13.955447-08:00 
+rpc-reply = 2014-12-03T02:24:43.797012-08:00 
+
+command number 1 wanted  time = 2014-12-03T06:37:27.655239122-08:00
+command number 1 after sleep =2014-12-03T06:37:27.240448-08:00 
+
+command number 1 wanted  time = 2014-12-03T06:37:27.655239122-08:00
+command number 1 after sleep =2014-12-03T06:37:27.252114-08:00 
+rpc-reply = 2014-12-03T06:37:27.255610-08:00 
+
+command number 1 wanted  time = 2014-12-03T06:39:51.159661876-08:00
+command number 1 after sleep =2014-12-03T06:39:51.663218-08:00 
+
+command number 2 wanted  time = 2014-12-03T06:39:51.159661876-08:00
+command number 2 after sleep =2014-12-03T06:39:51.675051-08:00 
+rpc-reply = 2014-12-03T06:39:51.678452-08:00 
+
+command number 1 wanted  time = 2014-12-03T06:41:57.392504922-08:00
+command number 1 after sleep =2014-12-03T06:41:57.506479-08:00 
+
+command number 3 wanted  time = 2014-12-03T06:41:57.392504922-08:00
+command number 3 after sleep =2014-12-03T06:41:57.520840-08:00 
+rpc-reply = 2014-12-03T06:41:57.524349-08:00 
+
+command number 1 wanted  time = 2014-12-03T06:42:07.009610401-08:00
+command number 1 after sleep =2014-12-03T06:42:07.611929-08:00 
+
+command number 4 wanted  time = 2014-12-03T06:42:07.009610401-08:00
+command number 4 after sleep =2014-12-03T06:42:07.625507-08:00 
+rpc-reply = 2014-12-03T06:42:07.628855-08:00 
+
+command number 1 wanted  time = 2014-12-07T22:48:15.684428790Z
+command number 1 after sleep =2014-12-07T22:48:15.686131-08:00 
+rpc-reply = 2014-12-07T22:48:15.690324-08:00 
+
+command number 2 wanted  time = 2014-12-07T22:48:37.329463666Z
+command number 2 after sleep =2014-12-07T22:48:37.331062-08:00 
+rpc-reply = 2014-12-07T22:48:37.335200-08:00 
+
+command number 1 wanted  time = 2014-12-07T22:50:13.880459782Z
+command number 1 after sleep =2014-12-07T22:50:13.882039-08:00 
+
+command number 3 wanted  time = 2014-12-07T22:50:13.880459782Z
+command number 3 after sleep =2014-12-07T22:50:14.032177-08:00 
+rpc-reply = 2014-12-07T22:50:14.035968-08:00 
+
+command number 1 wanted  time = 2014-12-07T22:50:50.094233343Z
+command number 1 after sleep =2014-12-07T22:50:50.095820-08:00 
+
+command number 4 wanted  time = 2014-12-07T22:50:50.094233343Z
+command number 4 after sleep =2014-12-07T22:50:50.250695-08:00 
+rpc-reply = 2014-12-07T22:50:50.254987-08:00 
+
+command number 1 wanted  time = 2014-12-07T22:51:24.714728613Z
+command number 1 after sleep =2014-12-07T22:51:24.717309-08:00 
+
+command number 5 wanted  time = 2014-12-07T22:51:24.714728613Z
+command number 5 after sleep =2014-12-07T22:51:24.878616-08:00 
+rpc-reply = 2014-12-07T22:51:24.882612-08:00 
+
+command number 1 wanted  time = 2014-12-07T22:52:16.800126860Z
+command number 1 after sleep =2014-12-07T22:52:16.802760-08:00 
+
+command number 6 wanted  time = 2014-12-07T22:52:16.800126860Z
+command number 6 after sleep =2014-12-07T22:52:16.975076-08:00 
+rpc-reply = 2014-12-07T22:52:16.979318-08:00 
+
+command number 1 wanted  time = 2014-12-07T22:59:43.945304863Z
+command number 1 after sleep =2014-12-07T22:59:43.947626-08:00 
+rpc-reply = 2014-12-07T22:59:43.952118-08:00 
+
+command number 2 wanted  time = 2014-12-07T23:02:08.934659574Z
+command number 2 after sleep =2014-12-07T23:02:08.936719-08:00 
+rpc-reply = 2014-12-07T23:02:08.941360-08:00 
+rpc-reply = 2014-12-07T23:48:16.452831-08:00 
+rpc-reply = 2014-12-07T23:48:40.673896-08:00 
+
+command number 1 wanted  time = 2014-12-07T23:51:38.695242875Z
+command number 1 after sleep =2014-12-07T23:51:38.696015-08:00 
+rpc-reply = 2014-12-07T23:51:38.701142-08:00 
+
+command number 2 wanted  time = 2014-12-07T23:53:04.299470146Z
+command number 2 after sleep =2014-12-07T23:53:17.599493-08:00 
+rpc-reply = 2014-12-07T23:53:17.603365-08:00 
+
+command number 3 wanted  time = 2014-12-07T23:53:42.686732355Z
+command number 3 after sleep =2014-12-07T23:53:42.686929-08:00 
+rpc-reply = 2014-12-07T23:53:42.691590-08:00 
+
+command number 4 wanted  time = 2014-12-07T23:54:26.000Z
+command number 4 after sleep =2014-12-07T23:54:26.000395-08:00 
+rpc-reply = 2014-12-07T23:54:26.005051-08:00 
+
+command number 5 wanted  time = 2014-12-07T23:55:26.000-08:00
+command number 5 after sleep =2014-12-07T23:55:26.000155-08:00 
+rpc-reply = 2014-12-07T23:55:26.004419-08:00 
+
+command number 6 wanted  time = 2014-12-07T23:55:26.000-08:00
+command number 6 after sleep =2014-12-07T23:55:39.607468-08:00 
+rpc-reply = 2014-12-07T23:55:39.611646-08:00 
+
+command number 7 wanted  time = 2014-12-07T23:55:26.000-08:00
+command number 7 after sleep =2014-12-07T23:55:47.499017-08:00 
+rpc-reply = 2014-12-07T23:55:47.503242-08:00 
+
+command number 8 wanted  time = 2014-12-07T23:56:16.000-08:00
+command number 8 after sleep =2014-12-07T23:56:16.001302-08:00 
+rpc-reply = 2014-12-07T23:56:16.006465-08:00 
+
+command number 9 wanted  time = 2014-12-07T23:56:40-08:00
+command number 9 after sleep =2014-12-07T23:56:40.000593-08:00 
+rpc-reply = 2014-12-07T23:56:40.005652-08:00 
+
+command number 10 wanted  time = 2014-12-07T23:57:00-08:00
+command number 10 after sleep =2014-12-07T23:57:09.278407-08:00 
+rpc-reply = 2014-12-07T23:57:09.282935-08:00 
+
+command number 11 wanted  time = 2014-12-07T23:58:00.000000-08:00
+command number 11 after sleep =2014-12-07T23:58:00.002286-08:00 
+rpc-reply = 2014-12-07T23:58:00.007772-08:00 
+
+command number 12 wanted  time = 2014-12-08T00:00:00.000000-08:00
+command number 12 after sleep =2014-12-07T23:59:58.240365-08:00 
+rpc-reply = 2014-12-07T23:59:58.245368-08:00 
+
+command number 1 wanted  time = 2014-12-08T00:00:00.000000-08:00
+command number 1 after sleep =2014-12-08T00:00:07.714057-08:00 
+rpc-reply = 2014-12-08T00:00:07.718489-08:00 
+
+command number 2 wanted  time = 2014-12-08T00:01:00.000000-08:00
+command number 2 after sleep =2014-12-08T00:02:08.194727-08:00 
+rpc-reply = 2014-12-08T00:02:08.198899-08:00 
+
+command number 3 wanted  time = 2014-12-08T01:00:00.000000-08:00
+command number 3 after sleep =2014-12-08T00:02:31.289364-08:00 
+rpc-reply = 2014-12-08T00:02:31.293586-08:00 
+
+command number 1 wanted  time = 2014-12-08T00:00:00.000000-08:00
+command number 1 after sleep =2014-12-08T00:00:00.001389-08:00 
+rpc-reply = 2014-12-08T00:00:00.006369-08:00 
+
+command number 2 wanted  time = 2014-12-08T00:00:30.000100-08:00
+command number 2 after sleep =2014-12-08T00:00:30.000813-08:00 
+rpc-reply = 2014-12-08T00:00:30.006026-08:00 
+
+command number 3 wanted  time = 2015-12-08T01:02:30.000100-03:00
+
+command number 1 wanted  time = 2015-12-08T01:06:50.000100-08:00
+
+command number 1 wanted  time = 2014-12-08T00:08:15.000100-08:00
+command number 1 after sleep =2014-12-08T00:08:15.000544-08:00 
+rpc-reply = 2014-12-08T00:08:15.005359-08:00 
+
+command number 2 wanted  time = 2014-12-08T01:08:45.000100-08:00
+command number 2 after sleep =2014-12-08T00:08:35.781293-08:00 
+rpc-reply = 2014-12-08T00:08:35.785367-08:00 
+
+command number 3 wanted  time = 2014-12-08T00:09:45.000100-08:00
+command number 3 after sleep =2014-12-08T00:09:45.001704-08:00 
+rpc-reply = 2014-12-08T00:09:45.007576-08:00 
+
+command number 4 wanted  time = 2014-12-08T01:10:45.000100-08:00
+command number 4 after sleep =2014-12-08T00:10:14.678302-08:00 
+rpc-reply = 2014-12-08T00:10:14.682772-08:00 
+
+command number 5 wanted  time = 2014-12-09T00:10:45.000100-08:00
+
+command number 1 wanted  time = 2014-12-08T01:12:55.000100-07:00
+command number 1 after sleep =2014-12-08T00:12:55.000686-08:00 
+rpc-reply = 2014-12-08T00:12:55.005669-08:00 
+
+command number 2 wanted  time = 2014-12-08T01:13:55.000100Z
+command number 2 after sleep =2014-12-08T00:13:43.999556-08:00 
+rpc-reply = 2014-12-08T00:13:44.003926-08:00 
+
+command number 3 wanted  time = 2014-12-08T10:15:05.000100+02:00
+command number 3 after sleep =2014-12-08T00:15:05.001518-08:00 
+rpc-reply = 2014-12-08T00:15:05.006716-08:00 
+
+command number 4 wanted  time = 2014-12-08T08:15:45.000100Z
+command number 4 after sleep =2014-12-08T00:15:37.346234-08:00 
+rpc-reply = 2014-12-08T00:15:37.350455-08:00 
+
+command number 5 wanted  time = 2014-12-08T08:15:45.000100Z
+command number 5 after sleep =2014-12-08T00:16:54.790667-08:00 
+rpc-reply = 2014-12-08T00:16:54.794640-08:00 
+
+command number 6 wanted  time = 2014-12-08T08:17:55.000100+00:00
+command number 6 after sleep =2014-12-08T00:17:55.001841-08:00 
+rpc-reply = 2014-12-08T00:17:55.007243-08:00 
+command number 5 after sleep =2014-12-08T00:19:14.011027-08:00 
+rpc-reply = 2014-12-08T00:19:14.016201-08:00 
+command number 3 after sleep =2014-12-08T00:24:32.929681-08:00 
+rpc-reply = 2014-12-08T00:24:32.935935-08:00 
+command number 1 after sleep =2014-12-08T00:34:33.430763-08:00 
+rpc-reply = 2014-12-08T00:34:33.436339-08:00 
+
+command number 2 wanted  time = 2014-12-08T00:51:59.393919074-08:00
+command number 2 after sleep =2014-12-08T00:51:59.394769-08:00 
+rpc-reply = 2014-12-08T00:51:59.399694-08:00 
+
+command number 3 wanted  time = 2014-12-08T00:57:00.393919074-08:00
+command number 3 after sleep =2014-12-08T00:57:00.394662-08:00 
+rpc-reply = 2014-12-08T00:57:00.399541-08:00 
+
+command number 4 wanted  time = 2014-12-08T08:57:35.393919074Z
+command number 4 after sleep =2014-12-08T00:57:28.656755-08:00 
+rpc-reply = 2014-12-08T00:57:28.661128-08:00 
+
+command number 5 wanted  time = 2014-12-08T08:59:00.393919074+00:00
+command number 5 after sleep =2014-12-08T00:59:00.394844-08:00 
+rpc-reply = 2014-12-08T00:59:00.399993-08:00 
+
+command number 6 wanted  time = 2014-12-08T09:07:30.393919074+00:00
+command number 6 after sleep =2014-12-08T01:07:30.394614-08:00 
+rpc-reply = 2014-12-08T01:07:30.399581-08:00 
+
+command number 1 wanted  time = 2014-12-08T09:28:30.393919074+00:00
+command number 1 after sleep =2014-12-08T01:28:30.395225-08:00 
+rpc-reply3 = 2014-12-08T01:28:30.400340-08:00 
+rpc-reply2 =2014-12-08T01:28:30.400340-08:00 
+
+command number 1 wanted  time = 2014-12-08T09:34:55.393919074+00:00
+command number 1 after sleep =2014-12-08T01:34:55.395059-08:00 
+rpc-reply = 2014-12-08T01:34:55.400109-08:00 
+
+command number 2 wanted  time = 2014-12-08T09:36:15.393919074Z
+command number 2 after sleep =2014-12-08T01:36:15.394661-08:00 
+rpc-reply = 2014-12-08T01:36:15.399735-08:00 
+command number 1 wanted  time = 2014-12-14T07:20:24.030461928-08:00
+command number 1 after sleep = 2014-12-14T07:20:24.030461928-08:00
+command number 1 wanted  time = 2014-12-14T07:20:24.030461928-08:00
+command number 1 after sleep = 2014-12-14T07:20:24.030461928-08:00
+command number 1 wanted  time = 2014-12-15T11:13:37.435651473-08:00
+command number 1 after sleep = 2014-12-15T11:13:37.435651473-08:00
+command number 1 wanted  time = 2014-12-15T11:13:37.435651473-08:00
+command number 1 after sleep = 2014-12-15T11:13:37.435651473-08:00
+command number 1 wanted  time = 2014-12-15T11:13:47.011252574-08:00
+command number 1 after sleep = 2014-12-15T11:13:47.011252574-08:00
+command number 1 wanted  time = 2014-12-15T11:13:47.011252574-08:00
+command number 1 after sleep = 2014-12-15T11:13:47.011252574-08:00
+command number 1 wanted  time = 2014-12-15T11:13:57.010560587-08:00
+command number 1 after sleep = 2014-12-15T11:13:57.010560587-08:00
+command number 1 wanted  time = 2014-12-15T11:13:57.010560587-08:00
+command number 1 after sleep = 2014-12-15T11:13:57.010560587-08:00
+command number 1 wanted  time = 2014-12-15T11:14:07.010962886-08:00
+command number 1 after sleep = 2014-12-15T11:14:07.010962886-08:00
+command number 1 wanted  time = 2014-12-15T11:14:07.010962886-08:00
+command number 1 after sleep = 2014-12-15T11:14:07.010962886-08:00

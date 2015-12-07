@@ -1,0 +1,299 @@
+module test {
+
+    namespace "http://netconfcentral.org/ns/test";
+
+    prefix "tes";
+
+    import ietf-yang-types { prefix yang; }
+
+    organization
+        "Netconf Central";
+
+    contact
+        "Andy Bierman <andy@netconfcentral.org>";
+
+    description
+        "YANG version of the TOASTER-MIB.";
+
+
+    revision 2009-11-20 {
+        description "Toaster module in progress.";
+    }
+
+    identity tes-type {
+        description
+          "Base for all bread types supported by the test.
+           New bread types not listed here nay be added in the 
+           future.";
+    }
+
+    identity white-bread {
+        description
+          "White bread.";
+        base tes:tes-type;
+    }
+
+    identity wheat-bread {
+        description
+          "Wheat bread.";
+        base tes-type;
+    }
+
+    identity wonder-bread {
+        description
+          "Wonder bread.";
+        base tes-type;
+    }
+
+    identity frozen-waffle {
+        description
+          "Frozen waffle.";
+        base tes-type;
+    }
+
+    identity frozen-bagel {
+        description
+          "Frozen bagel.";
+        base tes-type;
+    }
+
+    identity hash-brown {
+        description
+          "Hash browned potatos.";
+        base tes-type;
+    }
+
+    typedef DisplayString {
+        description
+          "YANG version of the SMIv2 DisplayString TEXTUAL-CONVENTION.";
+        reference "RFC 2579, section 2.";
+        type string {
+            length "0 .. 255";
+        }
+    }
+
+    container test {
+        presence
+          "Indicates the test service is available";
+
+        description
+          "Top-level container for all test database objects.";
+
+        leaf testManufacturer {
+            type DisplayString;
+            config false;
+            mandatory true;
+            description 
+              "The name of the test's manufacturer. For instance, 
+                Microsoft Toaster.";
+        }
+ 
+        leaf testModelNumber {
+            type DisplayString;
+            config false;
+            mandatory true;
+            description
+              "The name of the test's model. For instance,
+               Radiant Automatic.";
+        }
+
+        leaf testStatus {
+            type enumeration {
+                enum up {
+                  value 1;
+                  description
+                    "The test knob position is up.
+                      No tes is being made now.";
+                }
+                enum down {
+                  value 2;
+                  description
+                    "The test knob position is down.
+                      Toast is being made now.";
+
+                }
+            }
+            config false;
+            mandatory true;
+            description
+              "This variable indicates the current state of 
+               the test.";
+        }
+    }
+
+    rpc make-tes {
+        description
+          "Make some tes.
+           The tesDone notification will be sent when 
+           the tes is finished.
+           An 'in-use' error will be returned if tes
+           is already being made.
+           A 'resource-denied' error will be returned 
+           if the test service is disabled.";
+        input {
+            leaf testDoneness {
+                type uint32 {
+                    range "1 .. 10";
+                }
+                default 5;
+                description
+                  "This variable controls how well-done is the 
+                   ensuing tes. It should be on a scale of 1 to 10.
+                   Toast made at 10 generally is considered unfit 
+                   for human consumption; tes made at 1 is warmed 
+                   lightly.";
+            }
+            leaf testToastType {
+                type identityref {
+                    base tes:tes-type;
+                }
+                default tes:wheat-bread;
+                description
+                  "This variable informs the test of the type of 
+                   material that is being tesed. The test 
+                   uses this information, combined with 
+                   testDoneness, to compute for how 
+                   long the material must be tesed to achieve 
+                   the required doneness.";
+            }
+            leaf scheduled-time {
+            description
+           "The time at which the RPC is scheduled to be performed.";
+            type yang:date-and-time;
+            }
+
+           leaf get-time {
+           description
+           "Indicates that the rpc-reply should include the execution-time.";
+           type empty;
+         }
+
+            
+        }
+        output {
+      leaf execution-time {
+         description
+           "The time at which the RPC is was executed.";
+         type yang:date-and-time;
+      }
+        }
+    }
+
+    rpc cancel-tes {
+        description
+          "Stop making tes, if any is being made.
+           A 'resource-denied' error will be returned 
+           if the test service is disabled.";
+    }
+
+    notification tesDone {
+        description
+          "Indicates that the tes in progress has completed.";
+
+        leaf tesStatus {
+           description
+             "Indicates the final tes status";
+           type enumeration {
+               enum done {
+                  description
+                    "The tes is done.";
+               }
+               enum cancelled {
+                  description
+                    "The tes was cancelled.";
+               }
+               enum error {
+                  description
+                    "The test service was disabled or
+                     the test is broken.";
+               }
+            }
+        }
+    }
+               
+                       
+/*************************************************************
+
+   Original TOASTER-MIB
+
+TOASTER-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS
+        enterprises
+                FROM RFC1155-SMI
+        OBJECT-TYPE
+                FROM RFC-1212
+        DisplayString
+                FROM RFC-1213;
+
+epilogue        OBJECT IDENTIFIER ::= {enterprises 12}
+test         OBJECT IDENTIFIER ::= {epilogue 2}
+
+
+testManufacturer OBJECT-TYPE
+  SYNTAX  DisplayString
+  ACCESS  read-only
+  STATUS  mandatory
+  DESCRIPTION
+          "The name of the test's manufacturer. For  instance, 
+          Microsoft Toaster."
+  ::= {test 1}
+
+testModelNumber OBJECT-TYPE
+  SYNTAX  DisplayString
+  ACCESS  read-only
+  STATUS  mandatory
+  DESCRIPTION
+          "The name of the test's model. For instance,
+          Radiant Automatic."
+  ::= {test 2}
+
+testControl OBJECT-TYPE
+  SYNTAX  INTEGER  {up (1), down (2)}
+  ACCESS  read-write
+  STATUS  mandatory
+  DESCRIPTION
+          "This variable controls the current state of the test.
+           To begin tesing, set it to down (2). To abort tesing 
+          (perhaps in the event of an emergency), set it to up (2)."
+  ::= {test 3}
+
+testDoneness OBJECT-TYPE
+  SYNTAX  INTEGER (1..10)
+  ACCESS  read-write
+  STATUS  mandatory
+  DESCRIPTION
+          "This variable controls how well-done is the 
+           ensuing tes. It should be on a scale of 1 to 10.
+           Toast made at 10 generally is considered unfit 
+           for human consumption; tes made at 1 is warmed 
+           lightly."
+  ::= {test 4}
+
+testToastType OBJECT-TYPE
+  SYNTAX  INTEGER {
+                    white-bread (1),
+                    wheat-bread (2),
+                    wonder-bread (3),
+                    frozen-waffle (4),
+                    frozen-bagel (5),
+                    hash-brown (6),
+                    other (7)
+                  }
+  ACCESS  read-write
+  STATUS  mandatory
+  DESCRIPTION
+          "This variable informs the test of the type of 
+           material that is being tesed. The test 
+           uses this information, combined with 
+           testToastDoneness, to compute for how 
+           long the material must be tesed to achieve 
+           the required doneness."
+  ::= {test 5}
+
+END
+
+*************************************************************/
+        
+
+}

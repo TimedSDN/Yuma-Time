@@ -1,0 +1,60 @@
+OpenYuma Time Capability README
+===============================
+
+Background
+==========
+* This README describes the time capability in OpenYuma.
+* The time capability was defined in:
+  https://datatracker.ietf.org/doc/draft-mm-netconf-time-capability/
+* The current implementation supports version 01 of the draft.
+
+Installation
+============
+* Just follow the OpenYuma README file, or the Yuma Quickstart Guide, which can be found at: 
+  http://www.yumaworks.com/wp-content/themes/Yuma/images/pdf/yuma-quickstart-guide.pdf
+* Familiarize yourself with netconfd and yangcli. The QuickStart Guide is a great place to start.
+
+Usage
+=====
+* Start netconfd in debug level 3. For example:
+  > netconfd --superuser=batman --access-control=off --log-level=debug3 
+* Start yangcli in debug mode 2. For example: 
+  > yangcli --log-level=debug2 --timeout=60 --server=10.0.0.1
+* Note that the --timeout flag determines how long yangcli will wait for a scheduled message before giving up on it. Thus, be sure to set the timeout value (in seconds) to a high enough value.
+* In yangcli you can run a command like:
+  > get-config source=running scheduled-time=2015-07-17T14:18:20.679935213-06:00 get-time
+* The scheduled-time is in yang date-and-time format, and determines when the operation (get-config in this case) will be performed.
+* The get-time parameters causes the server to return the <execution-time> parameter. Thus, once the RPC is executed you will see the execution time displayed at the yangcli.
+* The scheduled-time and get-time parameters should work with your favorite RPCs, including make-toast...
+
+Scriptology
+===========
+* It is possible to run yangcli in batch mode, making it more suitable for automated scripts.
+* Here is an example of a two-line bash script that allows you to run a get-config that is scheduled to now + 2 seconds.
+  sctime=$(date -d "now + 2 seconds" --rfc-3339=ns  | sed 's/ /T/')
+  sudo yangcli --log-level=debug2 --timeout=60 --batch-mode --run-command="get-config source=running scheduled-time=$sctime get-time" --server=10.0.0.1 --user=batman --password=MyPassword
+
+A NETCONF-based cron
+====================
+* The "test" yang module defines a new RPC that causes the server to run a bash script called script.sh
+* The script can be found in: /etc/yuma/, and can changed without the need to recompile OpenYuma.
+* Thus, using this RPC you can run whatever you want on the server.
+* How this works:
+  1. Run yangcli.
+  2. In yangcli run the following commands:
+     create-subscription
+     load test
+     mgrload test
+     get-locks
+     create /test
+     save
+     release-locks
+  3. Now you can schedule script.sh to be performed at a future time using:
+     make-tes scheduled-time=2015-07-17T14:18:20.679935213-06:00 get-time
+
+
+TODO
+====
+* Cancellation messages have not yet been implemented in this version.
+* The sched-max-future and sched-max-past have not yet been implemented.
+* The scheduling implementation is currently blocking: when the server receives a scheduled message that is scheduled to be performed at time T (in the future), it just halts until time T.

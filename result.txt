@@ -1,0 +1,98 @@
+
+  yangcli version 2.2-5
+  libssh2 version 1.2.8
+
+  Copyright (c) 2008-2012, Andy Bierman, All Rights Reserved.
+
+yangcli: Starting NETCONF session for talmiz on localhost
+
+NETCONF session established for talmiz on localhost
+
+Client Session Id: 1
+Server Session Id: 12
+
+Server Protocol Capabilities
+   base:1.0
+   candidate:1.0
+   confirmed-commit:1.0
+   rollback-on-error:1.0
+   validate:1.0
+   url:1.0
+   xpath:1.0
+   notification:1.0
+   interleave:1.0
+   partial-lock:1.0
+   with-defaults:1.0
+   base:1.1
+   validate:1.1
+   confirmed-commit:1.1
+
+Server Module Capabilities
+   ietf-inet-types@2010-09-24
+   ietf-netconf-monitoring@2010-10-04
+   ietf-netconf-partial-lock@2009-10-19
+   ietf-netconf-time@2014-01-01
+   ietf-netconf-with-defaults@2011-06-01
+   ietf-yang-types@2010-09-24
+   nc-notifications@2008-07-14
+   notifications@2008-07-14
+   yuma-app-common@2012-08-16
+   yuma-arp@2012-01-13
+   yuma-interfaces@2012-01-13
+   yuma-mysession@2010-05-10
+   yuma-nacm@2012-10-05
+   yuma-ncx@2012-01-13
+   yuma-proc@2012-10-10
+   yuma-system@2012-10-05
+   yuma-time-filter@2011-08-13
+   yuma-types@2012-06-01
+
+Server Enterprise Capabilities
+   None
+
+Protocol version set to: RFC 6241 (base:1.1)
+Default target set to: <candidate>
+Save operation mapped to: commit
+Default with-defaults behavior: explicit
+Additional with-defaults behavior: trim,report-all,report-all-tagged
+
+
+Checking Server Modules...
+Execution-time: 6:2:3.603876Z 
+mgr_rpc: got invalid reply on session 1 (unknown element)
+RPC Data Reply 1 for session 12:
+
+rpc-reply {
+  data {
+    arp {
+    }
+    interfaces {
+      interface eth0 {
+        name eth0
+      }
+      interface eth1 {
+        name eth1
+      }
+      interface eth2 {
+        name eth2
+      }
+      interface eth3 {
+        name eth3
+      }
+      interface eth4 {
+        name eth4
+      }
+      interface eth5 {
+        name eth5
+      }
+      interface lo {
+        name lo
+      }
+    }
+    nacm {
+    }
+  }
+   6:2:3.603876Z 
+}
+
+2014-11-30T06:02:03.599151883Z
