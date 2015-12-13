@@ -169,10 +169,10 @@ CFLAGS = $(OPT) $(WARNING_FLAGS) $(DEFINES) -D_SVID_SOURCE -D_BSD_SOURCE  -fpic
 default: $(TARGETS)
 
 normal:
-	@$(MAKE) -f $(srcdir)/Makefile.rules TARGETS="$(TARGET_LIBS)" SUFFIX="" CFLAGS="$(CFLAGS)" CC="$(CC)" OBJDIR=normal_obj LINK_SHARED='ld -o $$@ -soname libtecla$$(SUFFIX).so.1 -shared --version-script=$$(srcdir)/libtecla.map $$(LIB_OBJECTS) $$(LIBS) -lc /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc.a' SHARED_EXT='.so.1.6.1' SHARED_ALT='.so .so.1' LIBS='$(LIBS)' srcdir='$(srcdir)' LIBDIR='$(LIBDIR)' LN_S='ln -s' DEMOS="$(DEMOS)" PROGRAMS='$(PROGRAMS)' RANLIB='$(RANLIB)' LDFLAGS='$(LDFLAGS)' CPPFLAGS='$(CPPFLAGS)'
+	@$(MAKE) -f $(srcdir)/Makefile.rules TARGETS="$(TARGET_LIBS)" SUFFIX="" CFLAGS="$(CFLAGS)" CC="$(CC)" OBJDIR=normal_obj LINK_SHARED='ld -o $$@ -soname libtecla$$(SUFFIX).so.1 -shared --version-script=$$(srcdir)/libtecla.map $$(LIB_OBJECTS) $$(LIBS) -lc /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a' SHARED_EXT='.so.1.6.1' SHARED_ALT='.so .so.1' LIBS='$(LIBS)' srcdir='$(srcdir)' LIBDIR='$(LIBDIR)' LN_S='ln -s' DEMOS="$(DEMOS)" PROGRAMS='$(PROGRAMS)' RANLIB='$(RANLIB)' LDFLAGS='$(LDFLAGS)' CPPFLAGS='$(CPPFLAGS)'
 
 reentrant:
-	@$(MAKE) -f $(srcdir)/Makefile.rules TARGETS="$(TARGET_LIBS)" SUFFIX="_r" CFLAGS="$(CFLAGS) $(DEFINES_R)" CC="$(CC)" OBJDIR=reentrant_obj LINK_SHARED='ld -o $$@ -soname libtecla$$(SUFFIX).so.1 -shared --version-script=$$(srcdir)/libtecla.map $$(LIB_OBJECTS) $$(LIBS) -lc /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc.a' SHARED_EXT='.so.1.6.1' SHARED_ALT='.so .so.1' LIBS='$(LIBS)' srcdir='$(srcdir)' LIBDIR='$(LIBDIR)' LN_S='ln -s' DEMOS="$(DEMOS)" PROGRAMS='$(PROGRAMS_R)' RANLIB='$(RANLIB)' LDFLAGS=$(LDFLAGS) CPPFLAGS=$(CPPFLAGS)
+	@$(MAKE) -f $(srcdir)/Makefile.rules TARGETS="$(TARGET_LIBS)" SUFFIX="_r" CFLAGS="$(CFLAGS) $(DEFINES_R)" CC="$(CC)" OBJDIR=reentrant_obj LINK_SHARED='ld -o $$@ -soname libtecla$$(SUFFIX).so.1 -shared --version-script=$$(srcdir)/libtecla.map $$(LIB_OBJECTS) $$(LIBS) -lc /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a' SHARED_EXT='.so.1.6.1' SHARED_ALT='.so .so.1' LIBS='$(LIBS)' srcdir='$(srcdir)' LIBDIR='$(LIBDIR)' LN_S='ln -s' DEMOS="$(DEMOS)" PROGRAMS='$(PROGRAMS_R)' RANLIB='$(RANLIB)' LDFLAGS=$(LDFLAGS) CPPFLAGS=$(CPPFLAGS)
 
 demos: normal
 

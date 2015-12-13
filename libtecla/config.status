@@ -472,7 +472,7 @@ s,@EXEEXT@,,;t t
 s,@OBJEXT@,o,;t t
 s,@SET_MAKE@,,;t t
 s,@LN_S@,ln -s,;t t
-s,@AWK@,mawk,;t t
+s,@AWK@,gawk,;t t
 s,@RANLIB@,ranlib,;t t
 s,@ac_ct_RANLIB@,ranlib,;t t
 s,@LD@,ld,;t t
@@ -495,7 +495,7 @@ s,@TARGETS@,normal reentrant,;t t
 s,@SHARED_EXT@,.so.1.6.1,;t t
 s,@SHARED_ALT@,.so .so.1,;t t
 s,@SHARED_CFLAGS@,-fpic,;t t
-s,@LINK_SHARED@,ld -o $$@ -soname libtecla$$(SUFFIX).so.1 -shared --version-script=$$(srcdir)/libtecla.map $$(LIB_OBJECTS) $$(LIBS) -lc /usr/lib/gcc/x86_64-linux-gnu/4.6/libgcc.a,;t t
+s,@LINK_SHARED@,ld -o $$@ -soname libtecla$$(SUFFIX).so.1 -shared --version-script=$$(srcdir)/libtecla.map $$(LIB_OBJECTS) $$(LIBS) -lc /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a,;t t
 s,@DEFS_R@,-D_POSIX_C_SOURCE=199506L -DPREFER_REENTRANT,;t t
 s,@LIBR_MANDIR@,man3,;t t
 s,@LIBR_MANEXT@,3,;t t
