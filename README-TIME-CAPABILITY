@@ -7,6 +7,8 @@ Background
 * The time capability was defined in:
   https://datatracker.ietf.org/doc/draft-mm-netconf-time-capability/
 * The current implementation supports version 01 of the draft.
+* The NETCONF time capability is part of the [TimedSDN project].
+
 
 Installation
 ============
@@ -14,8 +16,9 @@ Installation
   http://www.yumaworks.com/wp-content/themes/Yuma/images/pdf/yuma-quickstart-guide.pdf
 * Familiarize yourself with netconfd and yangcli. The QuickStart Guide is a great place to start.
 
-Usage
-=====
+
+Using the Time Capability
+=========================
 * Start netconfd in debug level 3. For example:
   > netconfd --superuser=batman --access-control=off --log-level=debug3 
 * Start yangcli in debug mode 2. For example: 
@@ -27,12 +30,14 @@ Usage
 * The get-time parameters causes the server to return the <execution-time> parameter. Thus, once the RPC is executed you will see the execution time displayed at the yangcli.
 * The scheduled-time and get-time parameters should work with your favorite RPCs, including make-toast...
 
+
 Scriptology
 ===========
 * It is possible to run yangcli in batch mode, making it more suitable for automated scripts.
 * Here is an example of a two-line bash script that allows you to run a get-config that is scheduled to now + 2 seconds.
   sctime=$(date -d "now + 2 seconds" --rfc-3339=ns  | sed 's/ /T/')
   sudo yangcli --log-level=debug2 --timeout=60 --batch-mode --run-command="get-config source=running scheduled-time=$sctime get-time" --server=10.0.0.1 --user=batman --password=MyPassword
+
 
 A NETCONF-based cron
 ====================
@@ -53,8 +58,21 @@ A NETCONF-based cron
      make-tes scheduled-time=2015-07-17T14:18:20.679935213-06:00 get-time
 
 
+Main changes
+============
+The current version of OpenYuma is a branch of [the latest open version of OpenYuma].
+The main changes of the current version compared to the baseline version are:
+* ietf-netconf-time.yang: defines the time capability.
+* src/ncx/val.c: identifying and processing RPCs with the <scheduled-time> or <get-time> parameters, including scheduling the RPC to be performed at the scheduled time.
+* src/agt/agt_rpc.c: incorporating the <execution-time> in the rpc-reply.
+* Across the board: the yuma temporary folder has been changed from ~/.yuma to /etc/yuma/.yuma. This allows multiple clients to run concurrently on different machines that share the same (NFS hosted) HOME directory (~).
+
+
 TODO
 ====
 * Cancellation messages have not yet been implemented in this version.
 * The sched-max-future and sched-max-past have not yet been implemented.
 * The scheduling implementation is currently blocking: when the server receives a scheduled message that is scheduled to be performed at time T (in the future), it just halts until time T.
+
+[TimedSDN project]: http://tx.technion.ac.il/~dew/TimedSDN.html
+[the latest open version of OpenYuma]: https://github.com/OpenClovis/OpenYuma
