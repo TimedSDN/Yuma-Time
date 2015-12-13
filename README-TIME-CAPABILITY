@@ -7,7 +7,7 @@ Background
 * The time capability was defined in:
   https://datatracker.ietf.org/doc/draft-mm-netconf-time-capability/
 * The current implementation supports version 01 of the draft.
-* The NETCONF time capability is part of the [TimedSDN project].
+* The NETCONF time capability is part of the TimedSDN project (http://tx.technion.ac.il/~dew/TimedSDN.html).
 
 
 Installation
@@ -60,7 +60,7 @@ A NETCONF-based cron
 
 Main changes
 ============
-The current version of OpenYuma is a branch of [the latest open version of OpenYuma].
+The current version of OpenYuma is a branch of the latest open version of OpenYuma (https://github.com/OpenClovis/OpenYuma).
 The main changes of the current version compared to the baseline version are:
 * ietf-netconf-time.yang: defines the time capability.
 * src/ncx/val.c: identifying and processing RPCs with the <scheduled-time> or <get-time> parameters, including scheduling the RPC to be performed at the scheduled time.
@@ -73,6 +73,3 @@ TODO
 * Cancellation messages have not yet been implemented in this version.
 * The sched-max-future and sched-max-past have not yet been implemented.
 * The scheduling implementation is currently blocking: when the server receives a scheduled message that is scheduled to be performed at time T (in the future), it just halts until time T.
-
-[TimedSDN project]: http://tx.technion.ac.il/~dew/TimedSDN.html
-[the latest open version of OpenYuma]: https://github.com/OpenClovis/OpenYuma
