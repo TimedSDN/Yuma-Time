@@ -5,7 +5,7 @@ Background
 ==========
 * This README describes the time capability in OpenYuma.
 * The time capability was defined in:
-  https://datatracker.ietf.org/doc/draft-mm-netconf-time-capability/
+  https://tools.ietf.org/html/rfc7758
 * The current implementation supports version 01 of the draft.
 * The NETCONF time capability is part of the TimedSDN project (http://tx.technion.ac.il/~dew/TimedSDN.html).
 

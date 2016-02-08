@@ -9,7 +9,7 @@ This version includes the time capability. For further details see the README-TI
 
 The TimedSDN Project
 ====================
-ReversePTP is part of the [TimedSDN project].
+Yuma-Time is part of the [TimedSDN project].
 
 Acknowledgments
 ===============
